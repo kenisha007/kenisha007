@@ -86,7 +86,7 @@ No wearable. No hospital visit. Just the phone people already carry.
 
 `TinyML` &nbsp; `Digital Biomarkers` &nbsp; `Signal Processing` &nbsp; `Python` &nbsp; `On-device ML`
 
-→ [**kenisha007**](https://github.com/kenisha007)
+→ [**kenisha007**](https://github.com/kenisha007/Silent_signs)
 
 <br/>
 
@@ -119,7 +119,7 @@ End-to-end A/B testing pipeline covering experiment design, hypothesis testing, 
 
 `Python` &nbsp; `Flask` &nbsp; `scipy` &nbsp; `pandas` &nbsp; `Deployed`
 
-→ [**ab-testing-project**](https://github.com/kenisha007/ab-testing-project) &nbsp;·&nbsp; [**A-B-Testing**](https://github.com/kenisha007/A-B-Testing)
+→ [**A-B-Testing**](https://github.com/kenisha007/A-B-Testing)
 
 ---
 
