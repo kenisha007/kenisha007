@@ -28,7 +28,7 @@
 
 <br/>
 
-> *I build NLP systems that don't hallucinate, RAG pipelines that cite every answer, and AI backends that fail gracefully — with a human escalation ticket rather than a confident wrong answer.*
+> *I build NLP systems that don't hallucinate, RAG pipelines that cite every answer, and AI backends that fail gracefully with a human escalation ticket rather than a confident wrong answer.*
 
 <br/>
 
@@ -38,9 +38,9 @@
 
 **Kenisha P** — AI & ML undergrad at **Global Academy of Technology, Bengaluru** (VTU, 2027), working at the edge of **language intelligence** and **production AI systems**.
 
-My work is shaped by one conviction: **AI that can't explain itself shouldn't be trusted**. Every project I ship is grounded — in source documents, in statistical evidence, in interpretable signals.
+My work is shaped by one conviction: **AI that can't explain itself shouldn't be trusted**. Every project I ship is grounded in source documents, in statistical evidence, in interpretable signals.
 
-I'm drawn to the hard parts of NLP — not just "what's the sentiment" but *why, with what confidence, and who should act on it.*
+I'm drawn to the hard parts of NLP not just "what's the sentiment" but *why, with what confidence, and who should act on it.*
 
 ---
 
@@ -50,9 +50,9 @@ I'm drawn to the hard parts of NLP — not just "what's the sentiment" but *why,
 
 ### 🔍 CLARITY &nbsp;·&nbsp; *Intelligent Feedback Triage Engine*
 
-> *Turn noisy customer text into actionable intelligence — one pipeline call.*
+> *Turn noisy customer text into actionable intelligence one pipeline call.*
 
-CLARITY is a production NLP microservice I designed around a simple frustration: most sentiment tools stop at a label. Real support teams need **urgency scores, topic signals, and team routing** — not just "negative."
+CLARITY is a production NLP microservice I designed around a simple frustration: most sentiment tools stop at a label. Real support teams need **urgency scores, topic signals, and team routing** not just "negative."
 
 Built on **FastAPI + scikit-learn + Pydantic v2**, it exposes 7 endpoints across preprocessing, sentiment analysis, priority scoring, topic detection, owner recommendation, token annotation, and a full end-to-end pipeline.
 
@@ -68,7 +68,7 @@ Built on **FastAPI + scikit-learn + Pydantic v2**, it exposes 7 endpoints across
 
 This is a document-grounded chatbot that refuses to guess. It ingests any PDF knowledge base, embeds it into **ChromaDB**, and uses a **LangGraph workflow** to retrieve, synthesize, and attribute every response.
 
-The part I'm proudest of: **confidence routing**. When retrieval similarity falls below 0.62 — or the intent signals something sensitive — the system generates a **human escalation ticket** instead of fabricating an answer. Local development works entirely offline via a **TF-IDF fallback** with no API quota.
+The part I'm proudest of: **confidence routing**. When retrieval similarity falls below 0.62 or the intent signals something sensitive the system generates a **human escalation ticket** instead of fabricating an answer. Local development works entirely offline via a **TF-IDF fallback** with no API quota.
 
 `LangGraph` &nbsp; `LangChain` &nbsp; `ChromaDB` &nbsp; `OpenAI` &nbsp; `pypdf` &nbsp; `scikit-learn`
 
@@ -80,7 +80,7 @@ The part I'm proudest of: **confidence routing**. When retrieval similarity fall
 
 > *Your phone already knows. It just hasn't been asked the right questions.*
 
-SilentSigns is a smartphone-native **passive Parkinson's disease screening platform** that detects early neurological biomarkers without any clinical intervention. The system runs entirely on-device using **TinyML**, analysing four passive signal streams — voice tremor, typing dynamics, gait patterns, and touch pressure — to surface early warning indicators of Parkinson's.
+SilentSigns is a smartphone-native **passive Parkinson's disease screening platform** that detects early neurological biomarkers without any clinical intervention. The system runs entirely on-device using **TinyML**, analysing four passive signal streams voice tremor, typing dynamics, gait patterns, and touch pressure to surface early warning indicators of Parkinson's.
 
 No wearable. No hospital visit. Just the phone people already carry.
 
@@ -94,7 +94,7 @@ No wearable. No hospital visit. Just the phone people already carry.
 
 > *Three seconds of sustained vowel. One number between 0 and 1.*
 
-A multilingual voice screening system that detects Parkinson's disease from a short "aaaah" recording — no wearable, no clinic, no language barrier. Built on **wav2vec2-XLS-R**, a self-supervised speech model pretrained across 128 languages, its frozen embeddings feed a lightweight logistic classifier trained on Italian PD patients.
+A multilingual voice screening system that detects Parkinson's disease from a short "aaaah" recording no wearable, no clinic, no language barrier. Built on **wav2vec2-XLS-R**, a self-supervised speech model pretrained across 128 languages, its frozen embeddings feed a lightweight logistic classifier trained on Italian PD patients.
 
 The most honest part of this project is what it reports about generalization: hand-crafted acoustic features (MDVP) break completely when you train on one language and test on another. wav2vec2 embeddings don't — because they've seen Indian, Italian, and English speech during pretraining. That cross-corpus failure is a known but underreported problem in medical speech AI. This project tests it explicitly and reports it honestly.
 
@@ -115,7 +115,7 @@ The most honest part of this project is what it reports about generalization: ha
 
 > *Because "it feels like it works" is not a product decision.*
 
-End-to-end A/B testing pipeline covering experiment design, hypothesis testing, p-value computation, effect size analysis, and a Flask dashboard for reporting — with a Procfile for live deployment.
+End-to-end A/B testing pipeline covering experiment design, hypothesis testing, p-value computation, effect size analysis, and a Flask dashboard for reporting with a Procfile for live deployment.
 
 `Python` &nbsp; `Flask` &nbsp; `scipy` &nbsp; `pandas` &nbsp; `Deployed`
 
